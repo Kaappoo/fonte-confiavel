@@ -1,4 +1,4 @@
-let balls = document.querySelector('.balls');
+let balls = document.getElementById('bolas');
 let quant = document.querySelectorAll('.slides .images');
 let atual = 0;
 let imagem = document.getElementById('atual');

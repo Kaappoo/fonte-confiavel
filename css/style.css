@@ -75,7 +75,7 @@ header {
 
 #atual{
     
-    transition: all 2s;
+    transition: all 1.2s;
 }
 .btn {
     position: absolute;
@@ -96,12 +96,12 @@ header {
     transform: scale(1.5);
 }
 #voltar{
-    top: 35%;
+    top: 28%;
     left: 3%;
 }
 
 #next{
-    top: 35%;
+    top: 28%;
     right: 3%;
 }
 .balls{
@@ -128,4 +128,40 @@ header {
 .imgAtual{
     background-color: white;
     transition: all 0.5s;
+}
+
+.posts {
+    margin: 30px;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+}
+
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.texto h3{
+    margin: 0;
+}
+
+.texto h5{
+    margin: 10px 0 0 0 ;
+    
+}
+
+
+.post .post-image {
+    width: 100px;
+    height: 100px;
+    background-image: url('/img/ChinaSumiu.png');
+    background-size: cover;
+    overflow: hidden;
+    
 }
